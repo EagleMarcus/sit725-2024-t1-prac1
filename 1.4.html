@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        /* Center the h1 horizontally */
+        .container {
+            text-align: center;
+        }
+
+        /* Center the h1 vertically using flexbox */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Set the height of the body to 100% viewport height */
+        }
+
+        h1 {
+            font-family: 'Andalusia Script', cursive; /* You can replace this with any other script font you like */
+            font-size: 3rem; /* Adjust the font size as needed */
+            color: darkred; /* Set the color to dark red */
+        }
+
+    </style>
+
+    <title> Assignment 1.4 </title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class = "container">
+    <h1 id="heading">Click Button Below to View Quotes by Popular Celebrities</h1>
+    
+        <button type="button" onclick="changeText()" class="btn btn-primary">Inspire Me</button>
+    </div>
+</body>
+</html>
